@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #533549;
+}
+
+#logo{
+    position: absolute;
+    max-width: 170px;
+    max-height: 95px;
+    margin-left: 45%;
+    cursor: pointer;
+}

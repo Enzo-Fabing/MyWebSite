@@ -76,7 +76,7 @@ header {
     font-size: 30px;
 }
 
-.mind-industry {
+.network-of-codes {
     color: rgb(226, 167, 95);
     padding: 20px;
     margin-top: 150px;
@@ -87,11 +87,25 @@ header {
     border-radius: 7px;
 }
 
-.mind-industry h1 {
+.network-of-codes h1 {
     text-align: center;
     font-size: 70px;
 }
 
-.mind-industry p {
+.network-of-codes p {
     font-size: 30px;
+}
+
+footer {
+    background-color: #533549;
+    margin-top: 50px;
+    height: 80px;
+    padding: 10px;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
 }

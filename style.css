@@ -1,197 +1,60 @@
 body {
-    font-family: 'Nunito';
     margin: 0;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(191, 203, 214);
+    font-family: 'Nunito';
+    color: rgb(225, 238, 237);
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
-header {
-    position: relative;
-    height: 120px;
-    width: 100%;
-    background-color: #533549;
-}
-
-.icon {
-    height: 60px;
+nav {
     position: absolute;
-    margin-top: 30px;
-    margin-left: 5%;
-    cursor: pointer;
+    background-color: aliceblue;
+    top: 0;
+    width: 700px;
+    height: 120%;
+    border-right: solid 4px rgb(18, 71, 131);
 }
 
-.logo {
-    width: 170px;
-    margin-top: 10px;
-    margin-left: 45%;
-    cursor: pointer;
+div {
+    margin-left: 800px;
 }
 
-.menu {
-    position: absolute;
-    display: none;
-    margin: 30px; 
-    width: 300px;
-    height: 370px;
-    background-color: #533549;
-    border-radius: 5px;
+.nav-list {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 130px;
 }
 
-.menu.active { 
-    display: block;
-}
-
-.menu-list {
-    margin-top: 50px;
-    margin-left: 50px;
+.nav-list-element {
     list-style: none;
-    font-size: 30px;
-    line-height: 2;
+    margin-bottom: 250px;
 }
 
-.menu-list li a:hover {
-    text-decoration-line: underline;
+.nav-list-element a {
+    color: rgb(18, 71, 131);
 }
 
-.about-me {
-    color: rgb(226, 167, 95);
-    padding: 20px;
-    margin: 50px auto;
-    height: 40vh;
-    width: 30vw;
-    background-color: #533549;
-    border-radius: 7px;
-}
-
-.about-me h1 {
-    text-align: center;
-    font-size: 70px;
-}
-
-.about-me p {
-    font-size: 30px;
-}
-
-.network-of-codes {
-    color: rgb(226, 167, 95);
-    padding: 20px;
-    margin: 50px auto;
-    height: 40vh;
-    width: 30vw;
-    background-color: #533549;
-    border-radius: 7px;
-}
-
-.network-of-codes h1 {
-    text-align: center;
-    font-size: 70px;
-}
-
-.network-of-codes p {
-    font-size: 30px;
-}
-
-footer {
-    position: relative;
-    background-color: #533549;
-    margin-top: 50px;
-    height: 80px;
-    padding: 10px;
-    bottom: 0
-}
-
-footer p {
+#title {
     display: block;
-    text-align: center;
-    font-family: 'Lucida Sans';
-    font-size: 25px;
+    margin-left: 12em;
+    font-size: 100px;
 }
 
-@media (max-width: 1297px) {
-
-    header {
-        width: auto;
-    }
-
-    .icon {
-        height: 50px;
-    }
-
-    .logo {
-        margin-left: 40%;
-        width: 150px;
-    }
-
-    .about-me {
-        width: 60vw;
-    }
-
-    .about-me h1 {
-        font-size: 50px;
-    }
-
-    .network-of-codes {
-        width: 60vw;
-    }
-
-    .about-me p {
-        font-size: 20px;
-    }
-
-    .network-of-codes h1 {
-        font-size: 50px;
-    }
-
-    .network-of-codes p {
-        font-size: 20px;
-    }
-
-    footer p {
-        font-size: 20px;
-    }
-
+div {
+    margin: 100px 0 50px 55em;
+    width: 90em;
 }
 
-@media (max-width: 400px) {
+div h1 {
+    font-size: 90px;
+}
 
-    .icon {
-        height: 50px;
-    }
-
-    .logo {
-        margin-left: 40%;
-    }
-
-    .about-me {
-        width: 100vw;
-    }
-
-    .about-me h1 {
-        font-size: 30px;
-    }
-
-    .network-of-codes {
-        width: 100vw;
-    }
-
-    .about-me p {
-        font-size: 20px;
-    }
-
-    .network-of-codes h1 {
-        font-size: 30px;
-    }
-
-    .network-of-codes p {
-        font-size: 20px;
-    }
-
-    footer p {
-        font-size: 20px;
-    }
-
+div p {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 2;
 }

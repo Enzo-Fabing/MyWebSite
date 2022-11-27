@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: rgb(191, 203, 214);
-    font-family: 'Nunito';
+    font-family: 'Roboto';
     color: rgb(225, 238, 237);
 }
 
@@ -9,29 +9,34 @@ a {
     text-decoration: none;
 }
 
+.container-grid {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 30vw auto;
+    grid-template-rows: 10vw 25vw auto;
+}
+
 nav {
-    position: absolute;
+    grid-column: 1;
+    grid-area: span 3;
     background-color: aliceblue;
-    top: 0;
-    width: 700px;
-    height: 120%;
     border-right: solid 4px rgb(18, 71, 131);
 }
 
-div {
-    margin-left: 800px;
-}
-
 .nav-list {
-    font-size: 80px;
-    font-weight: bold;
-    margin-top: 200px;
-    margin-left: 130px;
+    list-style: none;
+    margin-top: 9em;
+    margin-left: 3vw;
 }
 
 .nav-list-element {
-    list-style: none;
-    margin-bottom: 250px;
+    font-size: 70px;
+    margin-bottom: 2.5em;
+}
+
+.nav-list-element:hover {
+    text-decoration: underline;
 }
 
 .nav-list-element a {
@@ -39,22 +44,20 @@ div {
 }
 
 #title {
-    display: block;
-    margin-left: 12em;
-    font-size: 100px;
+    text-align: center;
+    font-size: 3em;
 }
 
-div {
-    margin: 100px 0 50px 55em;
-    width: 90em;
+.paragraph {
+    grid-column: 2;
+    margin-left: 1vw;
 }
 
-div h1 {
-    font-size: 90px;
+.paragraph h1 {
+    font-size: 70px;
+    margin-left: 1.5vw;
 }
 
-div p {
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 2;
+.paragraph p {
+    font-size: 35px;
 }
